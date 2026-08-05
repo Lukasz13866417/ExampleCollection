@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "name": "ExampleCollection",
+  "docsPath": "plans",
+  "kind": "github",
+  "repository": "Lukasz13866417/ExampleCollection",
+  "repositoryUrl": "https://github.com/Lukasz13866417/ExampleCollection",
+  "baseBranch": "main"
+}
