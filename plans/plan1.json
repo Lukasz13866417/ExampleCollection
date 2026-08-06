@@ -1,7 +1,7 @@
 {
   "version": 1,
   "title": "Plan1",
-  "updatedAt": "2026-08-05T21:33:36.378Z",
+  "updatedAt": "2026-08-06T23:13:37.897Z",
   "document": {
     "type": "doc",
     "content": [
@@ -457,6 +457,38 @@
             "type": "layoutColumn",
             "content": [
               {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph"
+              }
+            ]
+          },
+          {
+            "type": "layoutColumn",
+            "content": [
+              {
+                "type": "openQuestion",
+                "attrs": {
+                  "backgroundColor": null,
+                  "outlineColor": null
+                },
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Which planning patterns should become first-class blocks next?"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
                 "type": "decision",
                 "attrs": {
                   "backgroundColor": null,
@@ -475,11 +507,138 @@
                 ]
               },
               {
-                "type": "paragraph",
+                "type": "section",
                 "content": [
                   {
-                    "type": "text",
-                    "text": "EEEEEe dudididudududididudidudududududududududududu"
+                    "type": "heading",
+                    "attrs": {
+                      "level": 2
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "New section"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
+              {
+                "type": "layoutRow",
+                "content": [
+                  {
+                    "type": "layoutColumn",
+                    "content": [
+                      {
+                        "type": "section",
+                        "content": [
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 1
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Personal AI Plan Editor"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "A structured workspace for shaping project plans with a WYSIWYG editor and constrained AI document patches."
+                              }
+                            ]
+                          },
+                          {
+                            "type": "heading",
+                            "attrs": {
+                              "level": 2
+                            },
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Goals"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "bulletList",
+                            "content": [
+                              {
+                                "type": "listItem",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "Keep the document easy to scan and edit directly."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "listItem",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "What else?"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "layoutRow",
+                            "content": [
+                              {
+                                "type": "layoutColumn",
+                                "content": [
+                                  {
+                                    "type": "paragraph"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "layoutColumn",
+                                "content": [
+                                  {
+                                    "type": "paragraph",
+                                    "content": [
+                                      {
+                                        "type": "text",
+                                        "text": "AI edits"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "layoutColumn",
+                    "content": [
+                      {
+                        "type": "paragraph"
+                      }
+                    ]
                   }
                 ]
               }
@@ -489,140 +648,18 @@
             "type": "layoutColumn",
             "content": [
               {
-                "type": "section",
-                "content": [
-                  {
-                    "type": "heading",
-                    "attrs": {
-                      "level": 1
-                    },
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Personal AI Plan Editor"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "paragraph",
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "A structured workspace for shaping project plans with a WYSIWYG editor and constrained AI document patches."
-                      }
-                    ]
-                  },
-                  {
-                    "type": "heading",
-                    "attrs": {
-                      "level": 2
-                    },
-                    "content": [
-                      {
-                        "type": "text",
-                        "text": "Goals"
-                      }
-                    ]
-                  },
-                  {
-                    "type": "bulletList",
-                    "content": [
-                      {
-                        "type": "listItem",
-                        "content": [
-                          {
-                            "type": "paragraph",
-                            "content": [
-                              {
-                                "type": "text",
-                                "text": "Keep the document easy to scan and edit directly."
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "type": "listItem",
-                        "content": [
-                          {
-                            "type": "paragraph",
-                            "content": [
-                              {
-                                "type": "text",
-                                "text": "What else?"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "type": "layoutRow",
-                    "content": [
-                      {
-                        "type": "layoutColumn",
-                        "content": [
-                          {
-                            "type": "risk",
-                            "attrs": {
-                              "backgroundColor": null,
-                              "outlineColor": null
-                            },
-                            "content": [
-                              {
-                                "type": "paragraph",
-                                "content": [
-                                  {
-                                    "type": "text",
-                                    "text": "AI edits must be validated before they are applied."
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "paragraph"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "layoutColumn",
-                        "content": [
-                          {
-                            "type": "openQuestion",
-                            "attrs": {
-                              "backgroundColor": null,
-                              "outlineColor": null
-                            },
-                            "content": [
-                              {
-                                "type": "paragraph",
-                                "content": [
-                                  {
-                                    "type": "text",
-                                    "text": "Which planning patterns should become first-class blocks next?"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
-                            "type": "paragraph",
-                            "content": [
-                              {
-                                "type": "text",
-                                "text": "GFGGHFGHFGHFGHFGHFGHFGHFGH"
-                              }
-                            ]
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
+                "type": "paragraph"
               }
             ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "EEEEEe dudididudududididudidudududududududududududu"
           }
         ]
       }
