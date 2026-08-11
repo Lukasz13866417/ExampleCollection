@@ -1,7 +1,7 @@
 {
   "version": 1,
   "title": "Plan1",
-  "updatedAt": "2026-08-11T14:02:33.482Z",
+  "updatedAt": "2026-08-11T14:57:48.337Z",
   "document": {
     "type": "doc",
     "content": [
@@ -52,6 +52,19 @@
                     "type": "paragraph"
                   }
                 ]
+              },
+              {
+                "type": "tableHeader",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": null
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
               }
             ]
           },
@@ -80,7 +93,70 @@
                 },
                 "content": [
                   {
-                    "type": "paragraph"
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Quadratic formula: $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$. This cell mixes normal text, inline LaTeX, and structured content."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "blockMath",
+                    "attrs": {
+                      "latex": "E = mc^2"
+                    }
+                  },
+                  {
+                    "type": "bulletList",
+                    "content": [
+                      {
+                        "type": "listItem",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Inline and display mathematics"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "listItem",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "A short explanatory list"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "callout",
+                    "attrs": {
+                      "backgroundColor": "F3F4F6",
+                      "outlineColor": "6366F1"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Example content inside a table cell."
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               },
@@ -93,7 +169,160 @@
                 },
                 "content": [
                   {
-                    "type": "paragraph"
+                    "type": "heading",
+                    "attrs": {
+                      "level": 3
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "Collaboration features"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "bulletList",
+                    "content": [
+                      {
+                        "type": "listItem",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Flexible multi-column layouts"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "listItem",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Decisions, risks, and open questions"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "listItem",
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Interactive slideshows and diagrams"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "callout",
+                    "attrs": {
+                      "backgroundColor": "EFF6FF",
+                      "outlineColor": "3B82F6"
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Organize rich content with reusable structured blocks."
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": null
+                },
+                "content": [
+                  {
+                    "type": "heading",
+                    "attrs": {
+                      "level": 3
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "More app features"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "taskList",
+                    "content": [
+                      {
+                        "type": "taskItem",
+                        "attrs": {
+                          "checked": true
+                        },
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Structured planning blocks"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "taskItem",
+                        "attrs": {
+                          "checked": false
+                        },
+                        "content": [
+                          {
+                            "type": "paragraph",
+                            "content": [
+                              {
+                                "type": "text",
+                                "text": "Track follow-up actions"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "spoiler",
+                    "attrs": {
+                      "title": "AI-assisted editing",
+                      "open": false
+                    },
+                    "content": [
+                      {
+                        "type": "paragraph",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "Apply focused document changes while preserving the surrounding content."
+                          }
+                        ]
+                      }
+                    ]
                   }
                 ]
               }
@@ -102,6 +331,19 @@
           {
             "type": "tableRow",
             "content": [
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": null
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
               {
                 "type": "tableCell",
                 "attrs": {
@@ -157,7 +399,7 @@
       {
         "type": "table",
         "attrs": {
-          "tableWidth": "900px"
+          "tableWidth": "1170px"
         },
         "content": [
           {
@@ -196,7 +438,24 @@
                 "attrs": {
                   "colspan": 1,
                   "rowspan": 1,
-                  "colwidth": null
+                  "colwidth": [
+                    206
+                  ]
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
+              {
+                "type": "tableHeader",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": [
+                    242
+                  ]
                 },
                 "content": [
                   {
@@ -216,19 +475,6 @@
                     "type": "paragraph"
                   }
                 ]
-              },
-              {
-                "type": "tableHeader",
-                "attrs": {
-                  "colspan": 1,
-                  "rowspan": 1,
-                  "colwidth": null
-                },
-                "content": [
-                  {
-                    "type": "paragraph"
-                  }
-                ]
               }
             ]
           },
@@ -268,65 +514,8 @@
                 "attrs": {
                   "colspan": 1,
                   "rowspan": 1,
-                  "colwidth": null
-                },
-                "content": [
-                  {
-                    "type": "paragraph"
-                  }
-                ]
-              },
-              {
-                "type": "tableCell",
-                "attrs": {
-                  "colspan": 1,
-                  "rowspan": 1,
-                  "colwidth": null
-                },
-                "content": [
-                  {
-                    "type": "paragraph"
-                  }
-                ]
-              },
-              {
-                "type": "tableCell",
-                "attrs": {
-                  "colspan": 1,
-                  "rowspan": 1,
-                  "colwidth": null
-                },
-                "content": [
-                  {
-                    "type": "paragraph"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "tableRow",
-            "content": [
-              {
-                "type": "tableCell",
-                "attrs": {
-                  "colspan": 1,
-                  "rowspan": 1,
-                  "colwidth": null
-                },
-                "content": [
-                  {
-                    "type": "paragraph"
-                  }
-                ]
-              },
-              {
-                "type": "tableCell",
-                "attrs": {
-                  "colspan": 1,
-                  "rowspan": 1,
                   "colwidth": [
-                    295
+                    206
                   ]
                 },
                 "content": [
@@ -340,20 +529,9 @@
                 "attrs": {
                   "colspan": 1,
                   "rowspan": 1,
-                  "colwidth": null
-                },
-                "content": [
-                  {
-                    "type": "paragraph"
-                  }
-                ]
-              },
-              {
-                "type": "tableCell",
-                "attrs": {
-                  "colspan": 1,
-                  "rowspan": 1,
-                  "colwidth": null
+                  "colwidth": [
+                    242
+                  ]
                 },
                 "content": [
                   {
@@ -412,7 +590,24 @@
                 "attrs": {
                   "colspan": 1,
                   "rowspan": 1,
-                  "colwidth": null
+                  "colwidth": [
+                    206
+                  ]
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": [
+                    242
+                  ]
                 },
                 "content": [
                   {
@@ -426,6 +621,69 @@
                   "colspan": 1,
                   "rowspan": 1,
                   "colwidth": null
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "tableRow",
+            "content": [
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": null
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": [
+                    295
+                  ]
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": [
+                    206
+                  ]
+                },
+                "content": [
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              },
+              {
+                "type": "tableCell",
+                "attrs": {
+                  "colspan": 1,
+                  "rowspan": 1,
+                  "colwidth": [
+                    242
+                  ]
                 },
                 "content": [
                   {
@@ -638,15 +896,6 @@
                 "type": "paragraph"
               }
             ]
-          }
-        ]
-      },
-      {
-        "type": "paragraph",
-        "content": [
-          {
-            "type": "text",
-            "text": "EEEEEe dudididudududididudidudududududududududududu"
           }
         ]
       }
