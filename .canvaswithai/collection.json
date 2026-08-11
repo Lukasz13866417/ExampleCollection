@@ -1,9 +1,11 @@
 {
   "version": 1,
+  "historyId": "1fb80ef8-6c79-5730-be22-24a194acadf8",
   "name": "ExampleCollection",
   "docsPath": "plans",
   "kind": "github",
   "repository": "Lukasz13866417/ExampleCollection",
   "repositoryUrl": "https://github.com/Lukasz13866417/ExampleCollection",
-  "baseBranch": "main"
+  "baseBranch": "main",
+  "hiddenPlans": []
 }
