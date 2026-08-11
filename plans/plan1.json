@@ -1,7 +1,7 @@
 {
   "version": 1,
   "title": "Plan1",
-  "updatedAt": "2026-08-05T21:33:36.378Z",
+  "updatedAt": "2026-08-11T14:02:33.482Z",
   "document": {
     "type": "doc",
     "content": [
@@ -451,13 +451,31 @@
         ]
       },
       {
+        "type": "decision",
+        "attrs": {
+          "backgroundColor": null,
+          "outlineColor": null
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "Use JSON as the canonical document format for v1."
+              }
+            ]
+          }
+        ]
+      },
+      {
         "type": "layoutRow",
         "content": [
           {
             "type": "layoutColumn",
             "content": [
               {
-                "type": "decision",
+                "type": "openQuestion",
                 "attrs": {
                   "backgroundColor": null,
                   "outlineColor": null
@@ -468,20 +486,45 @@
                     "content": [
                       {
                         "type": "text",
-                        "text": "Use JSON as the canonical document format for v1."
+                        "text": "Which planning patterns should become first-class blocks next?"
                       }
                     ]
                   }
                 ]
-              },
+              }
+            ]
+          },
+          {
+            "type": "layoutColumn",
+            "content": [
               {
-                "type": "paragraph",
+                "type": "section",
                 "content": [
                   {
-                    "type": "text",
-                    "text": "EEEEEe dudididudududididudidudududududududududududu"
+                    "type": "heading",
+                    "attrs": {
+                      "level": 2
+                    },
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "New section"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
                   }
                 ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph"
               }
             ]
           },
@@ -564,24 +607,6 @@
                         "type": "layoutColumn",
                         "content": [
                           {
-                            "type": "risk",
-                            "attrs": {
-                              "backgroundColor": null,
-                              "outlineColor": null
-                            },
-                            "content": [
-                              {
-                                "type": "paragraph",
-                                "content": [
-                                  {
-                                    "type": "text",
-                                    "text": "AI edits must be validated before they are applied."
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
                             "type": "paragraph"
                           }
                         ]
@@ -590,29 +615,11 @@
                         "type": "layoutColumn",
                         "content": [
                           {
-                            "type": "openQuestion",
-                            "attrs": {
-                              "backgroundColor": null,
-                              "outlineColor": null
-                            },
-                            "content": [
-                              {
-                                "type": "paragraph",
-                                "content": [
-                                  {
-                                    "type": "text",
-                                    "text": "Which planning patterns should become first-class blocks next?"
-                                  }
-                                ]
-                              }
-                            ]
-                          },
-                          {
                             "type": "paragraph",
                             "content": [
                               {
                                 "type": "text",
-                                "text": "GFGGHFGHFGHFGHFGHFGHFGHFGH"
+                                "text": "AI edits"
                               }
                             ]
                           }
@@ -623,6 +630,23 @@
                 ]
               }
             ]
+          },
+          {
+            "type": "layoutColumn",
+            "content": [
+              {
+                "type": "paragraph"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": [
+          {
+            "type": "text",
+            "text": "EEEEEe dudididudududididudidudududududududududududu"
           }
         ]
       }
